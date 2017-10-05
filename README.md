@@ -1,0 +1,15 @@
+
+-Establecer una función llamada isValidCard(card)
+-Por medio de un prompt pregunto al usuario su número de tarjeta de crédito, el cual se almacenara en variable card.
+-Creo una variable llamada invertedNum que almacena los números en un array.
+-Luego itero variable card con ford para entregar los números invertidos.
+-Almacena los datos invertidos y convertidos en números.
+-Utilizo un ford que itera la variable invertedNum para identificar las posiciones pares.
+-Creo una variable llamada pairNum que almacena los números de la posiciones pares multiplicados por 2.
+-Si pairNum es igual o mayor a 10 creo una nueva variable llamada sum que almacena la resta de la variable pairNum menos 9, esto ya que es una formula que da el valor de la suma de los digitos de un numeros.
+-Almaceno la variable sum en invertedNum.
+-Si la posición de los números que están en invertedNum es impar los números se almacenan en pairNum.
+-Creo una variable llamada totalSum que almacenara la suma de todos los números.
+-Mediante un for itera todos los números para sumarlos.
+-Si en suma de los números de la variable totalSum el residuo de 10 es igual a 0, se muestra un alert que indique que la tarjeta es válida.
+-Si no se cumple está condición, se muestra un alert que indique que la tarjeta es invalida.
